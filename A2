@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>Wartungsliste</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background: #f9f9f9;
+      color: #333;
+    }
+    h1 {
+      color: #007ACC;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 800px;
+      background: white;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px 12px;
+      text-align: left;
+    }
+    th {
+      background: #007ACC;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h1>Wartungsliste</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Datum</th>
+        <th>Gerät</th>
+        <th>Beschreibung</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2025-06-01</td>
+        <td>Heizung</td>
+        <td>Filterwechsel</td>
+        <td>Erledigt</td>
+      </tr>
+      <tr>
+        <td>2025-06-15</td>
+        <td>Klima</td>
+        <td>Reinigung</td>
+        <td>Ausstehend</td>
+      </tr>
+      <!-- Hier kannst du weitere Einträge hinzufügen -->
+    </tbody>
+  </table>
+</body>
+</html>
